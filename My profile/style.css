@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(160, 230, 253);
+    color: rgb(232, 138, 138);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+div {
+    border: 1px;
+    margin: 10px;
+}
+
+h1, h2, a {
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+h1 {
+    color: black;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    margin: 10px;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.img-circle {
+    width: 150px;
+    border-radius: 20%;
+}
+
+.container {
+    width: 700px;
+    margin: 10px auto;
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.btn-purple {
+    background-color: blueviolet;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.btn-purple:hover {
+    background-color: rgb(160, 230, 253)    ;
+    color: black;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;  
+}
+
+.list-inline i {
+    font-size: 40px;
+    color: rgb(120, 120, 120);
+}
+
+.list-inline i:hover {
+    color: black;
+}
+
+.img-circle {
+    border-radius: 90%;
+    width: 100px;
+    height: 100px;
+}
+p {
+    padding: 15px;
+}
+
+@media (max-width: 960px) {        /*esto sirve para adaptar el ".container" a cualquier */
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 700px) {         /*tamaño de pantalla, segun corresponda*/
+    .container {
+        width: 540px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 300px;
+    }
+}
